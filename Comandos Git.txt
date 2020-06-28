@@ -1,0 +1,6 @@
+git checkout -b nome - criar nova branch
+git checkout nome - alternar branch
+git push o-nome-branch - enviar para branch
+git pull - para sincronizar
+
+https://unpkg.com/axios/dist/axios.min.js - axios

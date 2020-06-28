@@ -1,4 +1,11 @@
-var minhaPromise = function() {
+axios.get('https://api.github.com/users/xFlaEx')
+    .then(function (response) {
+        console.log(response);
+    })
+    .catch(function (error) {
+        console.warn(error);
+    });
+/*var minhaPromise = function() {
     return new Promise(function(resolve, reject){
         var xhr = new XMLHttpRequest();
         xhr.open('GET', 'https://api.github.com/users/xFlaEx');
@@ -22,4 +29,4 @@ minhaPromise()
     })
     .catch(function(error) {
         console.warn(error);
-    });
+    });*/
