@@ -1,5 +1,7 @@
 "use strict";
 
+//Classes
+
 /*class List {
     constructor(){
         
@@ -34,20 +36,45 @@ document.getElementById('novoTodo').onclick = function(){
     MinhaLista.add("NewTodo");
     MinhaLista.user();
 };*/
-var arr = [1, 3, 4, 5, 8, 9];
-var newArr = arr.map(function (item, index) {
-  return item + index;
+//Arrays Functions
+
+/*const arr = [1,3,4,5,8,9];
+
+const newArr = arr.map(function(item, index) {
+    
+    return item+index;
 });
-var sum = arr.reduce(function (total, next) {
-  return total + next;
+
+const sum = arr.reduce((total, next) => {
+
+    return total+next;
 });
-var filter = arr.filter(function (item) {
-  return item % 2 === 0;
+
+const filter = arr.filter(item => item%2 === 0);
+
+const find = arr.find(function(item) {
+
+    return item === 4;
 });
-var find = arr.find(function (item) {
-  return item === 4;
-});
+
 console.log(newArr);
 console.log(sum);
 console.log(filter);
-console.log(find);
+console.log(find);*/
+//Desestruturação
+var usuario = {
+  nome: 'Flávio',
+  idade: 18,
+  endereco: {
+    cidade: 'Picos',
+    estado: 'Piauí'
+  }
+}; //const {nome, idade, endereco: {cidade}} = usuario;
+//console.log(nome, idade, cidade);
+
+function mostraUsuario(_ref) {
+  var nome = _ref.nome;
+  console.log(nome);
+}
+
+mostraUsuario(usuario);
