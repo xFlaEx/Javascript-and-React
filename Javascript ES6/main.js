@@ -127,3 +127,4 @@ const usuario1 = {
 const usuario2 = {...usuario1, nome: 'Pedro'};
 
 console.log(usuario2);
+
