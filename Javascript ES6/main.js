@@ -40,15 +40,12 @@ const newArr = arr.map(function(item, index) {
     return item+index;
 });
 
-const sum = arr.reduce(function(total, next) {
+const sum = arr.reduce((total, next) => {
 
     return total+next;
 });
 
-const filter = arr.filter(function(item) {
-
-    return item%2 === 0;
-});
+const filter = arr.filter(item => item%2 === 0);
 
 const find = arr.find(function(item) {
 
