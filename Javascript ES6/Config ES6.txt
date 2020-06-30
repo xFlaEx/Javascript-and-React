@@ -2,3 +2,5 @@ yarn init - package.json
 yarn add @babel/cli - trabalhar com o babel
 yarn add @babel/preset-env - atualizar
 yarn add @babel/core
+
+yarn add @babel/plugin-proposal-object-rest-spread - Para utilizar os operadores rest/spread
