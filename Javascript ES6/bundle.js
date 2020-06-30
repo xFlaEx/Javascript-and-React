@@ -46,10 +46,21 @@ var TodoList = /*#__PURE__*/function (_List) {
   var _super = _createSuper(TodoList);
 
   function TodoList() {
+    var _this;
+
     _classCallCheck(this, TodoList);
 
-    return _super.apply(this, arguments);
+    _this = _super.call(this);
+    _this.usuario = 'Flávio';
+    return _this;
   }
+
+  _createClass(TodoList, [{
+    key: "user",
+    value: function user() {
+      console.log(this.usuario);
+    }
+  }]);
 
   return TodoList;
 }(List);
@@ -58,4 +69,5 @@ var MinhaLista = new TodoList();
 
 document.getElementById('novoTodo').onclick = function () {
   MinhaLista.add("NewTodo");
+  MinhaLista.user();
 };
