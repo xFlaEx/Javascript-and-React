@@ -1,6 +1,11 @@
 "use strict";
 
-//6
-var usuario = 'Diego';
+//7 - Object Short Syntax
+var nome = 'Diego';
 var idade = 23;
-console.log("O usu\xE1rio ".concat(usuario, " possui ").concat(idade, " anos"));
+var usuario = {
+  nome: nome,
+  idade: idade,
+  cidade: 'Rio do Sul'
+};
+console.log(usuario);
