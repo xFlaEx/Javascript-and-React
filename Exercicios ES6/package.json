@@ -1,5 +1,5 @@
 {
-  "name": "Exe",
+  "name": "123",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -10,6 +10,6 @@
   },
 
   "scripts": {
-    "dev": "babel ./Exe2.js -o ./bundle.js -w"
+    "dev": "babel ./Exe3.js -o ./bundle.js -w"
   }
 }
