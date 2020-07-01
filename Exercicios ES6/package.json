@@ -10,6 +10,6 @@
   },
 
   "scripts": {
-    "dev": "babel ./Exe3.js -o ./bundle.js -w"
+    "dev": "babel ./Exe4.js -o ./bundle.js -w"
   }
 }
