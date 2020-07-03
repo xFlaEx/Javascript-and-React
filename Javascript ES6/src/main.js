@@ -117,7 +117,7 @@ const arr3 = [...arr1, ...arr2];
 
 console.log(arr3);*/
 
-const usuario1 = {
+/*const usuario1 = {
 
     nome: 'Flávio',
     idade: 18,
@@ -126,5 +126,13 @@ const usuario1 = {
 
 const usuario2 = {...usuario1, nome: 'Pedro'};
 
-console.log(usuario2);
+console.log(usuario2);*/
+
+//Webpack Server
+//1.1
+import ClasseUsuario, {idade as IdadeUsuario} from './funcoes';
+
+console.log(ClasseUsuario.info());
+//1.2 and 1.3
+console.log(IdadeUsuario);
 
