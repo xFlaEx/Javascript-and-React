@@ -8,3 +8,6 @@ yarn add @babel/plugin-proposal-object-rest-spread - Para utilizar os operadores
 yarn add webpack webpack-cli -D
 yarn add babel-loader@8.0.0-beta.0 -D
 yarn add webpack-dev-server -D
+yarn add @babel/plugin-transform-async-to-generator -D - async/await
+yarn add @babel/polyfill -D
+yarn add axios - Instalar Axios
